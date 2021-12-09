@@ -41,9 +41,11 @@ to the binary via security settings.
 
 ## Python packages
 
-The script "haSAAS.py" includes a couple of Python packages.
-Make sure to install these as well. We developed and tested
-the script with Python 3.8
+The script "haSAAS.py" imports a couple of Python packages.
+In case these are missing in your installation, you should be able to
+"pip install" thse.
+
+We developed and tested this program with Python 3.8.
 
 ## Test data
 
@@ -73,7 +75,10 @@ note that the first run will take a while, since it will analyze
 162 assessments + 4546 submissions with the tree tagger. Later
 runs will be much faster.
 
+You might consider to turn on the "verbose" flag the see more detailed
+analysis data.
 
-Alexander Meisl
+
+Alexander Meisl    
 Gustaf Neumann
 
